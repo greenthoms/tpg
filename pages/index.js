@@ -3,9 +3,7 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
-
-    <h3>Hooray 🎉 - you've built this with <a href="https://nextjs.org">Next.js</a>!</h3>
+    <h1>TPG</h1>
 
     <style jsx>{`
       :global(html,body) {
@@ -26,7 +24,7 @@ const Home = () => (
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-color: #282c34;
+        background-color: #666;
         color: white;
       }
 
