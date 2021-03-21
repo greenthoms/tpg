@@ -7,7 +7,7 @@ const Home = () => (
     <div className="intro-content">
       <p>Hello world, I’m Thomas Green a designer who creates digital products and services. I’m currently based in Melbourne Australia.</p>
       <p>I focus on aligning the power of technology and business to human needs.</p>
-      <p>I currently work a <a href="https://www.telstrahealth.com/">Telstra Health</a> building tools for aged care providers.</p>
+      <p>I currently work at <a href="https://www.telstrahealth.com/">Telstra Health</a> building tools for aged care providers.</p>
     </div>
     <style jsx>{`
       :global(html,body) {
