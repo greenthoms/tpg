@@ -5,9 +5,9 @@ const Home = () => (
   <div>
     <h1 className="sr-only">Thomas Green</h1>
     <div className="intro-content">
-      <p>Hello world, I’m Thomas Green a designer who creates digital products and services. I’m currently based in Melbourne Australia.</p>
-      <p>I focus on aligning the power of technology and business to human needs.</p>
-      <p>I currently work at <a href="https://www.telstrahealth.com/">Telstra Health</a> building tools for aged care providers.</p>
+      <p>Hey I’m Thomas Green a digital product designer living in Melbourne Australia.</p>
+      <p>I’m interested in how systems and technology meet human needs.</p>
+      <p>I currently work at <a href="https://www.telstrahealth.com/">Telstra Health</a>.</p>
     </div>
     <style jsx>{`
       :global(html,body) {
