@@ -3,6 +3,12 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
+    <Head>
+      <title>Thomas Green</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet"/>
+    </Head>
     <h1 className="sr-only">Thomas Green</h1>
     <div className="intro-content">
       <p>Hey I’m Thomas Green a digital product designer living in Melbourne Australia.</p>
@@ -18,8 +24,7 @@ const Home = () => (
       :global(body) {
         font-size: 1.6rem;
         line-height: 1.5;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-          'Droid Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Alegreya Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         display: flex;
