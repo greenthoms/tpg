@@ -12,7 +12,7 @@ const Home = () => (
     <h1 className="sr-only">Thomas Green</h1>
     <div className="intro-content">
       <p>Hey I’m Thomas Green a digital product designer living in Melbourne Australia.</p>
-      <p>I’m interested in how systems and technology meet human needs.</p>
+      <p>I’m interested desiging systems and technology that meet human needs.</p>
       <p>I currently work at <a href="https://www.telstrahealth.com/">Telstra Health</a>.</p>
     </div>
     <style jsx>{`
@@ -22,7 +22,7 @@ const Home = () => (
       }
 
       :global(body) {
-        font-size: 1.6rem;
+        font-size: calc(1rem + 1.2vw);
         line-height: 1.5;
         font-family: 'Alegreya Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -30,14 +30,14 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         background-color: #111;
-        color: white;
+        color: #fafafa;
       }
       a {
         color: pink;
         text-decoration: none;
       }
       .intro-content {
-        padding: 4rem;
+        padding: 4vmax;
         max-width: 30rem;
       }
       .sr-only {
