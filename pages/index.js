@@ -11,7 +11,7 @@ const Home = () => (
     </Head>
     <h1 className="sr-only">Thomas Green</h1>
     <div className="intro-content">
-      <p>Hey I’m Thomas Green–a digital product designer living in Melbourne Australia.</p>
+      <p>Hey I’m Thomas Green, a digital product designer living in Melbourne Australia.</p>
       <p>I’m interested in desiging technologies and systems for human needs.</p>
       <p>I currently work at <a href="https://www.telstrahealth.com/">Telstra Health</a>.</p>
     </div>
